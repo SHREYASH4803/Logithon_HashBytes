@@ -1,9 +1,4 @@
-# Vehicle-Route-Optimization-TSP
-OR-Tools is an open source software suite for optimization, tuned for tackling the world's toughest problems in vehicle routing, flows, integer and linear programming, and constraint programming.
-An example of a node-routing problem is vehicle routing. Suppose that a company needs to deliver packages to various locations, using a fleet of vehicles. 
-In the graph for this problem, nodes represent locations, and arcs represent routes between them. Each arc has a weight, corresponding to the cost of traveling that route. The problem: find a set of paths in the graph (corresponding to delivery routes for each vehicle) that includes every destination while minimizing the total cost. This differs from the arc-routing problem because the paths don't have to traverse every arc, just include every node.
 
-One of the most important things in using the OR-Tools is to use the right searching strategy and the right parameters to stop the search. Search limits terminate the solver after it reaches a specified limit, such as the maximum length of time, or number of solutions found. You can set a search limit through the solver's search parameters.
 
 Results
 Without time windows
